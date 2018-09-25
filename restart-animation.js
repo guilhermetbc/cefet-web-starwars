@@ -6,7 +6,6 @@
 // isso pode ser útil para você poder comparar um mesmo código usando
 // jQuery e usando "vanilla" JavaScript (JavaScript "puro")
 
-
 // se tivermos jQuery, usa-lo
 if (typeof $ !== 'undefined') {
   // pega o elemento que contém o texto com a intro do filme
@@ -31,8 +30,6 @@ if (typeof $ !== 'undefined') {
     }, 0);
   });
 }
-
-
 
 // se não tiver jQuery, fazer com vanilla javascript
 else {
